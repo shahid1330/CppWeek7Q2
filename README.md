@@ -1,2 +1,3 @@
 # CppWeek7Q2
 2. Create a base class called Shape.
+Used this class to store two double type value which could be used to compute the area of figure. Derive 2 specified class called Triangle and Rectangle from the base class Shape. Add to the base class; a member function called get_data to initialise base class data member and another member function display_area to compute and display area of figure. Make display_area a virtual function and redefined this function in the derived classes to suit their requirement. Using these three classes design a program which will accept dimensions of a triangle or rectangle interactively and display the area.
